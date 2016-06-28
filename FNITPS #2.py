@@ -3,7 +3,7 @@ import random
 # Me/Attributes
 You = {
      "action": input('type "pg" then a number 1-4 to pump gas into a certain part of the room, and type. ' +
-                     'You can also type "mask" to clear out your gas levels'),
+                     'You can also type "mask" to clear out your gas levels'), # Might want to reconsider where you put this input().
      'gas levels': 0,
      "py blue presence": False,
      "py yellow presence": False,
