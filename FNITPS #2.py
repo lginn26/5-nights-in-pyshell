@@ -3,7 +3,8 @@ import random
 # Me/Attributes
 You = {
      "action": input('type "pg" then a number 1-4 to pump gas into a certain part of the room, and type. ' +
-                     'You can also type "mask" to clear out your gas levels'),
+                     'You can also type "mask" to clear out your gas levels,' +
+                     'or type anything else to sit and wait.'),
      'gas levels': 0,
      "py blue presence": False,
      "py yellow presence": False,
@@ -113,6 +114,8 @@ while (Time >= 6.0 and
        not You["py blue presence":True] and 
        not You["little malware presence":True] and 
        not You['gas levels':10] >= 10):
-    
-    pass # The line below seems to do nothing. Was that intentional?
-    # You["action"]
+
+    input(You['gas levels'])
+
+    if You['action'] == 'pg1':
+        E11['gas levels']
